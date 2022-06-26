@@ -1,0 +1,397 @@
+/* NAVIGATION */
+
+#CRViewStudent #navbar {
+    background-color: var(--primary-color);
+    display: inline-block;
+    width: 100%;
+}
+
+#CRViewStudent .nav-list {
+    width: 95%;
+    margin: auto;
+}
+
+#CRViewStudent .nav-item {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.8rem;
+    padding: 20px 16px;
+}
+
+#CRViewStudent .nav-item a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+#CRViewStudent .nav-item:hover {
+    background-color: var(--white-color);
+    cursor: pointer;
+}
+
+#CRViewStudent .nav-item:hover a {
+    color: var(--primary-color);
+}
+
+
+/* HEADER */
+
+#CRViewStudent #header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#CRViewStudent .title {
+    padding: 24px 16px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#CRViewStudent .title-img {
+    width: 30%;
+}
+
+#CRViewStudent .title-content {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #0066B2;
+    align-self: center;
+}
+
+
+/* FOOTER */
+
+#CRViewStudent #footer h3 {
+    font-size: 2rem;
+    padding: 20px 0;
+}
+
+#CRViewStudent #footer {
+    display: flex;
+    align-items: center;
+    background-color: #1B2A4E;
+    flex-direction: column;
+}
+
+#CRViewStudent .contact-list {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+#CRViewStudent .contact-item {
+    display: inline-block;
+    padding: 12px 12px;
+    width: 50%;
+}
+
+#CRViewStudent .contact-name {
+    color: #FBD4BC;
+    font-size: 1.8rem;
+    text-transform: bold;
+    text-transform: uppercase;
+}
+
+#CRViewStudent .contact-description {
+    font-size: 1.8rem;
+    color: var(--white-color);
+    margin: 12px 0;
+}
+
+#CRViewStudent .contact-social--link {
+    margin-right: 12px;
+    font-size: 2.8rem;
+    color: #869AB8 !important;
+}
+
+#CRViewStudent .contact-social--link:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#CRViewStudent :root {
+    --white-color: #fff;
+    --black-color: #000;
+    --primary-color: #F27229;
+}
+
+#CRViewStudent * {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+#CRViewStudent html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+#CRViewStudent body {
+    background-color: #f7f7f7;
+    line-height: 2.5rem;
+}
+
+#CRViewStudent .btn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#CRViewStudent .btn {
+    background-color: var(--primary-color);
+    border: none;
+    color: var(--white-color);
+}
+
+#CRViewStudent .session {
+    float: right;
+}
+
+#CRViewStudent #content {
+    min-height: 600px;
+    max-width: 68.3%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#CRViewStudent .search-bar {
+    display: flex;
+}
+
+#CRViewStudent .search-input {
+    width: 90%;
+    padding: 10px;
+    font-size: 1.8rem;
+    text-indent: 32px;
+    position: relative;
+    border: none;
+    outline: none;
+    background-color: #DBF1FF;
+}
+
+#CRViewStudent .search--bar--icon {
+    z-index: 1;
+    position: absolute;
+    left: 16.5%;
+    color: var(--black-color);
+    opacity: 60%;
+}
+
+#CRViewStudent .clear-icon {
+    position: absolute;
+    z-index: 1;
+    right: 23.5%;
+    line-height: 45px;
+    color: #000;
+    opacity: 60%;
+    font-size: 30px;
+}
+
+#CRViewStudent .clear-icon:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#CRViewStudent .search-icon {
+    font-size: 20px;
+    line-height: 45px;
+}
+
+#CRViewStudent .btn-search {
+    width: 10%;
+    padding: 0 2px;
+    font-size: 2.2rem;
+    border-radius: 0 2px 2px 0;
+}
+
+#CRViewStudent .filter {
+    color: #0066B2;
+    font-size: 2.2rem;
+    margin: 16px 0;
+}
+
+#CRViewStudent .filter--item {
+    display: inline-block;
+}
+
+#CRViewStudent #job-number {
+    font-weight: bold;
+}
+
+#CRViewStudent .filter--select {
+    float: right;
+    font-weight: bold;
+    margin-left: 40px;
+    position: relative;
+}
+
+#CRViewStudent .filter--select i {
+    margin-left: 2px;
+}
+
+#CRViewStudent .filter--select:hover {
+    cursor: pointer;
+    color: var(--black-color);
+}
+
+#majors-dropdown,
+#CRViewStudent #types-dropdown {
+    display: none;
+    position: absolute;
+    background-color: var(--white-color);
+    min-width: 300px;
+    padding: 26px 28px 20px 28px;
+}
+
+.majors:hover #majors-dropdown,
+#CRViewStudent .types:hover #types-dropdown {
+    display: block;
+}
+
+.majors-item,
+#CRViewStudent .types-item {
+    color: #0066B2;
+    margin-bottom: 4px;
+}
+
+.majors-item:hover,
+#CRViewStudent .types-item:hover {
+    color: var(--primary-color);
+}
+
+#CRViewStudent
+/* .table-title{
+    border: 1px solid black;
+    background-color: #fa8643e0;
+    width: 105%;
+    height: 734px;
+    top: 24px;
+    margin-top: 8%;
+}
+#CRViewStudent .row-title{
+    position: absolute;
+    width: 103px;
+    height: 35px;
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+}
+#CRViewStudent .row-title th{
+    width: 30%;
+}
+#CRViewStudent .colum1{
+    width: 50%;
+    border: 1px solid #000;
+} */
+
+#CRViewStudent .table td {
+    border-collapse: collapse;
+    height: 40px;
+}
+
+#CRViewStudent .table {
+    border: 2px solid var(--black-color);
+    width: 100%;
+    background-color: rgba(242, 114, 41, 0.67);
+    padding-bottom: 24px;
+}
+
+#CRViewStudent .table * {
+    vertical-align: middle;
+    border: 1px solid #E3F0FC;
+}
+
+#CRViewStudent .table-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    height: 80px;
+}
+
+#CRViewStudent .details-button,
+#CRViewStudent .upload-button {
+    border: none;
+}
+
+#CRViewStudent .details-button {
+    color: #6199F6;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: large;
+    outline: none;
+    background-color: rgba(240, 158, 110, 0.67);
+}
+
+#CRViewStudent .upload-button {
+    color: #6199F6;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: large;
+    outline: none;
+    background-color: rgba(240, 158, 110, 0.67);
+}
+
+#CRViewStudent .item td {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+#CRViewStudent .btn:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+#CRViewStudent .view {
+    width: 100%;
+    height: 50%;
+    font-size: 20px;
+}
+
+#CRViewStudent .paging {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+#CRViewStudent .paging * {
+    font-size: 2.2rem;
+}
+
+#CRViewStudent .paging-btn {
+    border: 1px solid var(--primary-color);
+    background-color: var(--white-color);
+    padding: 8px 6px;
+    color: var(--primary-color);
+}
+
+#CRViewStudent .paging-btn:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+#CRViewStudent .pre-btn {
+    border-radius: 10px 0 0 10px;
+}
+
+#CRViewStudent .next-btn {
+    border-radius: 0 10px 10px 0;
+}
+
+#CRViewStudent .page-number {
+    background-color: var(--primary-color);
+    padding: 9.5px 12px;
+    color: var(--white-color);
+}

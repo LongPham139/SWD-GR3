@@ -1,0 +1,134 @@
+#CRViewRequest .content-heading {
+    color: #2C5282;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    float: left;
+}
+
+#CRViewRequest .cr-search {
+    width: 40%;
+    font-size: 1.8rem;
+    color: #2C5282;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    float: right;
+}
+
+#CRViewRequest .cr-search * {
+    display: inline-block;
+}
+
+#CRViewRequest .cr-search p,
+#CRViewRequest .cr-search i {
+    line-height: 42px;
+}
+
+#CRViewRequest .cr-search-bar {
+    position: absolute;
+    width: 85%;
+    padding: 10px 10px;
+    font-size: 1.6rem;
+    right: 0;
+    background-color: #DBF1FF;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+}
+
+#CRViewRequest .cr-search i {
+    position: absolute;
+    right: 8px;
+    font-size: 2rem;
+}
+
+
+/* TITLE CONTENT  */
+
+#CRViewRequest .content-title,
+#CRViewRequest .student-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#CRViewRequest .content-title {
+    padding: 24px 16px 8px 16px;
+    border-bottom: 1px solid;
+    color: #2C5282;
+}
+
+#CRViewRequest .student-list {
+    margin-top: 24px;
+}
+
+#CRViewRequest .student-item {
+    background-color: #F7FAFC;
+    padding: 24px 16px;
+    margin-bottom: 8px;
+}
+
+#CRViewRequest .content-title>*,
+#CRViewRequest .student-item>* {
+    margin-right: 24px;
+    align-self: center;
+}
+
+#CRViewRequest .col1 {
+    width: 5%;
+    display: inline-block;
+}
+
+#CRViewRequest .col2 {
+    width: 20%;
+    display: inline-block;
+}
+
+#CRViewRequest .col3 {
+    width: 10%;
+    display: inline-block;
+}
+
+#CRViewRequest .col4 {
+    width: 7%;
+    display: inline-block;
+}
+
+#CRViewRequest .col5 {
+    width: 7%;
+    display: inline-block;
+}
+
+#CRViewRequest .col6 {
+    width: 7%;
+    display: inline-block;
+}
+
+#CRViewRequest .col4,
+#CRViewRequest .col5,
+#CRViewRequest .col6 {
+    color: var(--white-color);
+    border: none;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+#CRViewRequest .btn-detail {
+    background-color: #2C5282;
+}
+
+#CRViewRequest .btn-accept {
+    background-color: #62AA7A;
+}
+
+#CRViewRequest .btn-delete {
+    background-color: #D14848;
+    text-align: center;
+}

@@ -1,0 +1,181 @@
+/* ojt  */
+
+#CREOJTCreation .ojt-semester {
+    height: 52.8px;
+}
+
+#CREOJTCreation .col-haft {
+    float: left;
+    width: 30%;
+}
+
+#CREOJTCreation .col-four-ojt {
+    text-align: center;
+    width: 24%;
+}
+
+#CREOJTCreation .row-ojt {
+    display: flex;
+    justify-content: space-between;
+}
+
+#CREOJTCreation .row-ojt::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#CREOJTCreation .ojt {
+    /* display: none; */
+    z-index: 3;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(242, 114, 41, 0.7);
+}
+
+#CREOJTCreation .ojt-header {
+    padding: 24px 0;
+}
+
+#CREOJTCreation .ojt-content {
+    position: relative;
+    top: 12%;
+    margin: auto;
+    border-radius: 8px;
+    padding-bottom: 52px;
+}
+
+#CREOJTCreation .close-ojt {
+    top: 0;
+    right: 0;
+    position: absolute;
+    font-size: 30px;
+    margin-top: 16px;
+    margin-right: 24px;
+    display: block;
+}
+
+#CREOJTCreation .close-ojt:hover {
+    cursor: pointer;
+}
+
+#CREOJTCreation .ojt-title {
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 4.8rem;
+}
+
+#CREOJTCreation .ojt-title span {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+#CREOJTCreation .ojt-information {
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin: 52px 0;
+}
+
+#CREOJTCreation .ojt-input {
+    padding: 8px 0;
+    margin-top: 12px;
+    text-indent: 20px;
+    width: 100%;
+}
+
+#CREOJTCreation .ojt-header-bottom {
+    font-size: 2.4rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+#CREOJTCreation .company-list {
+    min-height: 300px;
+    padding: 40px 0;
+}
+
+#CREOJTCreation .company-title {
+    border-bottom: 2px solid var(--black-color);
+    padding-bottom: 16px;
+}
+
+#CREOJTCreation .company-title *,
+#CREOJTCreation .company-item * {
+    display: inline-block;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+#CREOJTCreation .company-title * {
+    color: #2C5282;
+    font-size: 2rem;
+}
+
+#CREOJTCreation .company-title .col1 {
+    padding-left: 12px;
+}
+
+#CREOJTCreation .ojt-container .col1 {
+    width: 5%;
+}
+
+#CREOJTCreation .ojt-container .col2 {
+    width: 20%;
+}
+
+#CREOJTCreation .ojt-container .col3 {
+    width: 25%;
+}
+
+#CREOJTCreation .ojt-container .col4 {
+    width: 25%;
+}
+
+#CREOJTCreation .ojt-container .col5 {
+    width: 25%;
+}
+
+#CREOJTCreation .btn-ojt-create:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+#CREOJTCreation .company-item {
+    padding: 32px 12px;
+    background-color: #F7FAFC;
+    margin-top: 8px;
+}
+
+#CREOJTCreation .btn-cover {
+    text-align: right;
+}
+
+#CREOJTCreation .btn-ojt-create {
+    color: var(--white-color);
+    border: none;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 12px 52px;
+    border-radius: 8px;
+    background-color: var(--primary-color);
+}
+
+#CREOJTCreation .flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+#CREOJTCreation .flexbox>* {
+    margin-bottom: 0;
+    width: 33.3333%;
+}

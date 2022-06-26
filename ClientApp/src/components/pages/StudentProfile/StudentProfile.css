@@ -1,0 +1,265 @@
+#StudentProfile .student-profile,
+#StudentProfile .student-about {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+#StudentProfile .col-haft {
+    width: 45%;
+    float: left;
+}
+
+#StudentProfile .col-left-student {
+    width: 30%;
+    float: left;
+    margin: auto;
+}
+
+#StudentProfile .col-right {
+    width: 65%;
+    float: right;
+}
+
+#StudentProfile .student-avt {
+    max-width: 300px;
+    min-height: 300px;
+    height: 327px;
+}
+
+#StudentProfile .student-profile-info {
+    height: 327px;
+}
+
+#StudentProfile .student-avt img {
+    width: 100%;
+    display: block;
+}
+
+#StudentProfile .row-student-profile {
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+#StudentProfile .row-student-profile::after,
+#StudentProfile .student-profile::after,
+#StudentProfile .student-detail::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#StudentProfile .student-detail {
+    margin-bottom: 100px;
+}
+
+#StudentProfile .row-student-profile * {
+    display: inline-block;
+}
+
+#StudentProfile .row-student-profile span {
+    width: 30%;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#StudentProfile .col-info,
+#StudentProfile .col-id {
+    width: 65% !important;
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#StudentProfile .col-id {
+    text-transform: uppercase !important;
+}
+
+#StudentProfile .profile-title {
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+#StudentProfile .profile-title strong {
+    font-weight: normal;
+}
+
+#StudentProfile .row-student-profile .col-haft {
+    font-size: 2.4rem;
+}
+
+#StudentProfile .row-student-profile .col-haft a {
+    color: #6199F6;
+    text-decoration: none;
+}
+
+#StudentProfile .btn-browse,
+#StudentProfile .btn-cancel {
+    font-size: 2.4rem;
+    background-color: #D1D6DA !important;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-transform: capitalize;
+}
+
+#StudentProfile .btn-browse:hover,
+#StudentProfile .btn-cancel:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+#StudentProfile .line {
+    border-bottom: 1px solid #c4c4c4;
+}
+
+#StudentProfile .line-title {
+    font-weight: bold;
+    font-size: 2.6rem;
+    opacity: 0.6;
+    margin-bottom: 12px;
+    margin-left: 16px;
+}
+
+#StudentProfile .line-title i {
+    font-size: 2rem;
+}
+
+#StudentProfile .divide {
+    display: flex;
+    margin: 32px 0;
+}
+
+#StudentProfile .divide-name {
+    flex-grow: 0.1;
+    font-size: 1.8rem;
+    color: #c4c4c4;
+    margin-right: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#StudentProfile .divide-line {
+    border-bottom: 1px solid #c4c4c4;
+    flex-grow: 200;
+    margin-bottom: 6px;
+}
+
+#StudentProfile .work-title {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 24px;
+}
+
+#StudentProfile .training-item {
+    margin-bottom: 12px;
+}
+
+#StudentProfile .training-item * {
+    display: inline-block;
+}
+
+#StudentProfile .training-name {
+    margin-left: 8px;
+    font-size: 1.8rem;
+}
+
+#StudentProfile .job-applied * {
+    display: inline-block;
+}
+
+#StudentProfile .job {
+    margin-bottom: 100px;
+}
+
+#StudentProfile .company-applied {
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 16px;
+}
+
+#StudentProfile .skills {
+    height: 200px;
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid var(--black-color);
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+#StudentProfile .skill-item {
+    margin-left: 16px;
+}
+
+#StudentProfile .about-title {
+    font-size: 1.8rem;
+    color: #c4c4c4;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 32px 0;
+}
+
+#StudentProfile .row-student-profile input,
+#StudentProfile .row-student-profile textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 1.8rem;
+}
+
+#StudentProfile .description {
+    display: block;
+    width: 100% !important;
+    margin-bottom: 12px;
+}
+
+#StudentProfile .btn-interact {
+    margin-right: 32px;
+    float: right;
+}
+
+#StudentProfile .btn-cancel,
+#StudentProfile .btn-save {
+    padding: 4px 32px;
+    border-radius: 12px;
+    border: none;
+    height: 52px;
+    font-size: 2.4rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: var(--white-color);
+}
+
+#StudentProfile .btn-cancel {
+    background-color: #C4C4C4;
+    color: var(--black-color) !important;
+}
+
+#StudentProfile .btn-save {
+    background-color: var(--primary-color);
+    margin-left: 42px;
+}
+
+#StudentProfile .ojt-company {
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+#StudentProfile .grade {
+    font-size: 2rem;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 24px;
+    color: var(--primary-color);
+}
+
+.grade-report {
+    color: var(--black-color);
+    float: right;
+    margin-right: 60px;
+}
+
+.edit-cv input {
+    padding: 0 !important;
+}

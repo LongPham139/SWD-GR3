@@ -1,0 +1,41 @@
+#CRHeader #navbar {
+    background-color: var(--primary-color);
+    display: inline-block;
+    width: 100%;
+}
+
+#CRHeader .nav-list {
+    width: 95%;
+    margin: auto;
+}
+
+#CRHeader .nav-item {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.8rem;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+#CRHeader .nav-item span {
+    color: var(--white-color);
+}
+
+#CRHeader .nav-item:hover {
+    background-color: var(--white-color);
+    cursor: pointer;
+}
+
+#CRHeader .nav-item:hover span {
+    color: var(--primary-color);
+}
+
+
+/* HEADER */
+
+#CRHeader #header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

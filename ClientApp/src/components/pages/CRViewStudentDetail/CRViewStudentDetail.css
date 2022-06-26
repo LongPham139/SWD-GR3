@@ -1,0 +1,200 @@
+#CRViewStudentDetail .clear {
+    width: 100%;
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#CRViewStudentDetail .body-color {
+    background-color: #f7f7f7 !important;
+}
+
+#CRViewStudentDetail .pl-40 {
+    padding-left: 40px;
+}
+
+#CRViewStudentDetail .row-student::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#CRViewStudentDetail .col-left {
+    border-right: 1px solid var(--black-color);
+}
+
+#CRViewStudentDetail .col-right,
+#CREViewStudentDetail .company-name {
+    padding-left: 40px;
+}
+
+#CRViewStudentDetail .col-four-title {
+    float: left;
+    width: 20%;
+    height: 50px;
+    font-size: 2rem;
+    line-height: 50px;
+}
+
+#CRViewStudentDetail .col-four-content {
+    font-weight: bold;
+    float: left;
+    width: 30%;
+    height: 50px;
+    font-size: 2rem;
+    line-height: 50px;
+}
+
+#CRViewStudentDetail .student-personal {
+    width: 35%;
+    float: left;
+}
+
+#CRViewStudentDetail .student-description {
+    width: 65%;
+    float: left;
+    background-color: rgba(168, 228, 252, 0.37);
+    border-radius: 4px 4px 0 0;
+}
+
+#CRViewStudentDetail .student-personal-name {
+    text-align: center;
+    font-size: 3.6rem;
+    text-transform: capitalize;
+}
+
+#CRViewStudentDetail .student-personal-avt {
+    margin: auto;
+    max-width: 300px;
+    min-height: 300px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+#CRViewStudentDetail .student-personal-avt img {
+    width: 100%;
+    display: block;
+}
+
+#CRViewStudentDetail .m-24 {
+    text-align: center;
+}
+
+#CRViewStudentDetail .student-personal-info {
+    margin: 0 24px;
+}
+
+#CRViewStudentDetail .student-personal-info * {
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin: 8px 0;
+    display: inline-block;
+}
+
+#CRViewStudentDetail .student-personal-info p:first-child {
+    text-align: left;
+    width: 20%;
+}
+
+#CRViewStudentDetail .student-personal-cv {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #6199F6;
+    font-weight: normal;
+}
+
+
+/* DESCRIPTION  */
+
+#CRViewStudentDetail .student-description-heading {
+    font-size: 3.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 32px 32px 18px;
+    border-bottom: 1px solid var(--black-color);
+}
+
+#CRViewStudentDetail .student-description-body {
+    padding: 24px 40px 18px;
+}
+
+#CRViewStudentDetail .about *,
+#CREViewStudentDetail .col-haft * {
+    display: inline-block;
+    font-size: 2rem;
+}
+
+#CRViewStudentDetail .about {
+    padding-top: 24px;
+    margin: 12px 0 24px;
+}
+
+#CRViewStudentDetail .about span {
+    width: 20%;
+}
+
+#CRViewStudentDetail .student-detail-about {
+    width: 75%;
+    font-weight: bold;
+}
+
+#CRViewStudentDetail .description {
+    width: 100%;
+}
+
+#CRViewStudentDetail .description span {
+    width: 20%;
+    float: left;
+    font-size: 2.4rem;
+}
+
+#CRViewStudentDetail .description-texarea {
+    float: left;
+    width: 75%;
+    border-radius: 8px;
+    background-color: #F5FCFF;
+    border: none;
+    padding: 20px;
+    font-size: 2rem;
+    outline: none;
+}
+
+#CRViewStudentDetail .col-haft {
+    float: left;
+    width: 50%;
+}
+
+#CRViewStudentDetail .phone span {
+    width: 40%;
+}
+
+#CRViewStudentDetail .phone div {
+    width: 60%;
+}
+
+#CRViewStudentDetail .company-name {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#CRViewStudentDetail .grade {
+    float: left;
+    width: 33.3333%;
+}
+
+#CRViewStudentDetail .grade * {
+    text-align: center;
+    display: block;
+}
+
+#CRViewStudentDetail .grade span {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin: 24px 0;
+}
+
+#CRViewStudentDetail .grade p {
+    font-size: 1.8rem;
+    font-weight: bold;
+}

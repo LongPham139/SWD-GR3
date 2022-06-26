@@ -1,0 +1,103 @@
+:root {
+  --white-color: #fff;
+  --black-color: #000;
+  --primary-color: #F27229;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f7f7;
+  line-height: 2.5rem;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: var(--primary-color);
+  border: none;
+  color: var(--white-color);
+}
+
+.session {
+  float: right;
+}
+
+.title {
+  padding: 24px 16px;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-img {
+  width: 30%;
+}
+
+.title-content {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #0066B2;
+  align-self: center;
+}
+
+#content {
+  min-height: 600px;
+  max-width: 68.3%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.paging {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.paging * {
+  font-size: 2.2rem;
+}
+
+.paging-btn {
+  border: 1px solid var(--primary-color);
+  background-color: var(--white-color);
+  padding: 8px 6px;
+  color: var(--primary-color);
+}
+
+.paging-btn:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.pre-btn {
+  border-radius: 10px 0 0 10px;
+}
+
+.next-btn {
+  border-radius: 0 10px 10px 0;
+}
+
+.page-number {
+  background-color: var(--primary-color);
+  padding: 9.5px 12px;
+  color: var(--white-color);
+}
+
+.display {
+  display: block !important;
+}

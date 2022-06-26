@@ -1,0 +1,211 @@
+#CRProfile .company-profile,
+#CRProfile .company-about {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+#CRProfile .company-profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+#CRProfile .col-haft {
+    width: 45%;
+    float: left;
+}
+
+#CRProfile .col-left {
+    width: 30%;
+}
+
+#CRProfile .col-right {
+    width: 68%;
+}
+
+#CRProfile .company-logo {
+    max-width: 300px;
+    min-height: 250px;
+}
+
+#CRProfile .company-logo img {
+    width: 100%;
+    display: block;
+}
+
+#CRProfile .row-profile {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+#CRProfile .row-profile *,
+#CRProfile .row-detail * {
+    display: inline-block;
+}
+
+#CRProfile .row-profile::after,
+#CRProfile .company-detail::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#CRProfile .company-detail {
+    margin-bottom: 30px;
+}
+
+#CRProfile .row-profile span {
+    width: 30%;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+#CRProfile .col-info {
+    width: 70%;
+    float: right;
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 12px;
+}
+
+#CRProfile .website {
+    text-transform: none !important;
+}
+
+#CRProfile .about-title {
+    font-size: 1.8rem;
+    color: #c4c4c4;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 32px 0;
+}
+
+#CRProfile .row-detail {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+#CRProfile .row-detail span {
+    width: 20%;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+#CRProfile .col-input {
+    width: 75%;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 1.8rem;
+    float: right;
+}
+
+#CRProfile .divide {
+    display: flex;
+    margin: 32px 0;
+}
+
+#CRProfile .divide-name {
+    flex-grow: 0.1;
+    font-size: 1.8rem;
+    color: #c4c4c4;
+    margin-right: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#CRProfile .divide-line {
+    border-bottom: 1px solid #c4c4c4;
+    flex-grow: 200;
+    margin-bottom: 6px;
+}
+
+#CRProfile .row-profile textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 1.8rem;
+}
+
+#CRProfile .clear::after {
+    content: "";
+    clear: both;
+    display: none;
+}
+
+#CRProfile .btn-interact {
+    width: 100%;
+    text-align: right;
+}
+
+.btn-cancel,
+#CRProfile .btn-save {
+    padding: 4px 32px;
+    border-radius: 12px;
+    border: none;
+    height: 52px;
+    font-size: 2.4rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: var(--white-color);
+}
+
+#CRProfile .btn-cancel {
+    background-color: #C4C4C4;
+    color: var(--black-color);
+}
+
+#CRProfile .btn-save {
+    background-color: var(--primary-color);
+    margin-left: 42px;
+}
+
+#CRProfile .industry-item {
+    padding: 4px 12px;
+    font-size: 1.8rem;
+    width: 70%;
+}
+
+#CRProfile .edit-logo {
+    font-size: 2rem;
+}
+
+#CRProfile .logo {
+    width: 60%;
+    font-size: 2rem;
+}
+
+#CRProfile .block>* {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#CRProfile .block {
+    width: 100%;
+}
+
+#CRProfile .industry-list {
+    line-height: 36px;
+    width: 40%;
+}
+
+#CRProfile .middle {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#CRProfile .industry-add i,
+#CRProfile .industry-sub {
+    font-size: 2.4rem;
+    color: var(--primary-color);
+}
+
+#CRProfile .industry-add i:hover,
+#CRProfile .industry-sub:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+#CRProfile .industry-list * {
+    margin-bottom: 8px;
+}

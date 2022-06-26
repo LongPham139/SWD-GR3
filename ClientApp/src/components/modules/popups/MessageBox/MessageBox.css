@@ -1,0 +1,49 @@
+.msg-request {
+    background-color: #ffeae6;
+    position: fixed;
+    top: 32px;
+    right: 32px;
+    z-index: 1;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    padding: 20px !important;
+    border-left: 4px solid #D14848;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.08);
+    max-width: 800px;
+    transition: all linear .3s;
+    text-transform: none;
+    padding-left: 12px;
+    animation: slideInLeft ease .3s;
+}
+
+.msg-request h1 {
+    font-size: 2rem;
+}
+
+.msg-close {
+    margin-left: 12px !important;
+}
+
+.msg-request button {
+    float: right;
+    font-size: 2.4rem;
+    padding: 4px 12px;
+    line-height: 25px;
+    background-color: var(--white-color);
+    border: none;
+    vertical-align: middle;
+    border-radius: 4px;
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(430px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

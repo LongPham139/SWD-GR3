@@ -1,0 +1,1 @@
+export const ClientID:string = process.env["REACT_APP_GOOGLE_ID"] as string;

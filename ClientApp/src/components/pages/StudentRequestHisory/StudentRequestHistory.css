@@ -1,0 +1,55 @@
+#StudentRequestHistory h3 {
+    font-size: 2.4rem;
+    color: #0066B2;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+#StudentRequestHistory .table-request {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+#StudentRequestHistory .col {
+    font-size: 2rem;
+    background-color: #F5FCFF;
+}
+
+#StudentRequestHistory tr * {
+    border: 1px solid #DDD;
+    padding: 12px 12px;
+}
+
+#StudentRequestHistory .col1 {
+    width: 30%;
+}
+
+#StudentRequestHistory .col2 {
+    width: 15%;
+    text-align: center;
+}
+
+#StudentRequestHistory .col3 {
+    width: 30%;
+}
+
+#StudentRequestHistory .col4 {
+    width: 10%;
+    text-align: center;
+}
+
+#StudentRequestHistory .col5 {
+    width: 10%;
+    text-align: center;
+}
+
+#StudentRequestHistory .content-heading {
+    font-size: 2.4rem;
+    background-color: #6B90DA;
+    color: var(--white-color);
+}
+
+#StudentRequestHistory .content-heading th {
+    padding: 8px 12px;
+}

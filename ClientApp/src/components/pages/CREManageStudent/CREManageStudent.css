@@ -1,0 +1,302 @@
+#CREManageStudent .clear::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#CREManageStudent .clear {
+    width: 100%;
+}
+
+#CREManageStudent .search-bar {
+    width: 90%;
+    padding: 6px 0;
+    text-indent: 20px;
+    font-size: 1.8rem;
+    border: none;
+    background-color: #DBF1FF;
+    outline: none;
+}
+
+#CREManageStudent .btn-search {
+    width: 10%;
+    font-size: 1.8rem;
+    padding: 6px 0;
+    border: none;
+    background-color: var(--primary-color);
+    margin-bottom: 8px;
+    color: var(--white-color);
+    font-weight: bold;
+    border-radius: 0 2px 2px 0;
+}
+
+#CREManageStudent .filter-select {
+    margin-top: 8px;
+    float: right;
+    padding: 4px;
+    font-size: 1.8rem;
+}
+
+#CREManageStudent .table-student {
+    margin: 6px 0;
+    width: 100%;
+    background-color: rgba(242, 114, 41, 67%);
+    border: 2px solid var(--black-color);
+}
+
+#CREManageStudent .table-student * {
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 8px 0;
+    border: 1px solid #E3F0FC;
+    vertical-align: middle;
+}
+
+#CREManageStudent .col1 {
+    width: 8%;
+}
+
+#CREManageStudent .col2 {
+    width: 10%;
+}
+
+#CREManageStudent .col3 {
+    width: 15%;
+}
+
+#CREManageStudent .col4 {
+    width: 10%;
+}
+
+#CREManageStudent .col5 {
+    width: 10%;
+}
+
+#CREManageStudent .col6 {
+    width: 10%;
+    padding: 0;
+}
+
+#CREManageStudent .col7 {
+    width: 10%;
+    padding: 0;
+}
+
+#CREManageStudent .btn-edit,
+#CREManageStudent .btn-delete {
+    width: 100%;
+    color: var(--white-color);
+    font-weight: bold;
+    border: none;
+}
+
+#CREManageStudent .btn-edit:hover,
+#CREManageStudent .btn-delete:hover,
+#CREManageStudent .paging-btn:hover,
+#CREManageStudent .btn-search:hover,
+#CREManageStudent .filter-select:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+#CREManageStudent .btn-edit {
+    background-color: #2C5282;
+}
+
+#CREManageStudent .btn-delete {
+    background-color: #D14848;
+}
+
+#CREManageStudent .table-student-title * {
+    color: var(--white-color);
+    font-size: 2.4rem;
+}
+
+#CREManageStudent #CRViewStudentGrade .paging {
+    display: flex;
+    justify-content: center;
+}
+
+#CREManageStudent #CRViewStudentGrade .paging * {
+    font-size: 2.2rem;
+}
+
+#CREManageStudent #CRViewStudentGrade .paging-btn {
+    border: 1px solid var(--primary-color);
+    background-color: var(--white-color);
+    padding: 8px 6px;
+    color: var(--primary-color);
+}
+
+#CREManageStudent .pre-btn {
+    border-radius: 10px 0 0 10px;
+}
+
+#CREManageStudent .next-btn {
+    border-radius: 0 10px 10px 0;
+}
+
+#CREManageStudent .page-number {
+    background-color: var(--primary-color);
+    padding: 9px 12px;
+    color: var(--white-color);
+}
+
+#CREManageStudent .csv {
+    float: left;
+    text-align: left;
+    font-size: 1.8rem;
+}
+
+#CREManageStudent .csv h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+#CREManageStudent .csv-link>* {
+    display: inline-block;
+}
+
+#CREManageStudent .csv-link p {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 8px;
+    vertical-align: top;
+    line-height: 43px;
+}
+
+#CREManageStudent .csv-link a {
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+#CREManageStudent .csv-file {
+    font-size: 1.2rem;
+    background-color: var(--white-color);
+    padding: 6px;
+    min-width: 230px;
+}
+
+
+/* MODAL  */
+
+#CREManageStudent .row {
+    width: 100%;
+    margin: 0 !important;
+}
+
+#CREManageStudent .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#CREManageStudent .col-haft {
+    width: 45%;
+    display: inline-block;
+    margin-right: 5%;
+    margin-top: 24px;
+}
+
+#CREManageStudent .modal {
+    display: none;
+    z-index: 3;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(242, 114, 41, 0.7);
+}
+
+#CREManageStudent .modal-header {
+    border: none !important;
+    padding: 24px;
+}
+
+#CREManageStudent .modal-content {
+    position: relative;
+    top: 12%;
+    width: 70%;
+    background-color: var(--white-color);
+    margin: auto;
+    border-radius: 8px;
+    padding: 0 128px;
+    padding-bottom: 52px;
+}
+
+#CREManageStudent .close-modal {
+    top: 0;
+    right: 0;
+    position: absolute;
+    font-size: 30px;
+    margin-top: 16px;
+    margin-right: 24px;
+    display: block;
+}
+
+#CREManageStudent .close-modal:hover {
+    cursor: pointer;
+}
+
+#CREManageStudent .col-haft input {
+    width: 100%;
+    padding: 8px 0;
+    font-size: 1.6rem;
+    text-indent: 15px;
+}
+
+#CREManageStudent .birth {
+    text-indent: 10px !important;
+}
+
+#CREManageStudent .col-haft p,
+#CREManageStudent .col-haft select {
+    width: 100%;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#CREManageStudent .col-haft select {
+    padding: 6px 0;
+    text-indent: 10px;
+}
+
+#CREManageStudent .right {
+    text-align: right;
+}
+
+#CREManageStudent .btn-submit {
+    border: none;
+    padding: 12px 60px;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 24px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    outline: none;
+}
+
+#CREManageStudent .student-id {
+    color: var(--primary-color);
+    font-size: 2.4rem !important;
+}
+
+#CREManageStudent .btn-submit:hover,
+#CREManageStudent .col-haft select:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+#CREManageStudent .table-student-info .col6 {
+    background-color: #2C5282;
+}
+
+#CREManageStudent .table-student-info .col7 {
+    background-color: #D14848;
+}
